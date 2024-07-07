@@ -1,4 +1,4 @@
-package com.gopi.BookExchange.config;
+package com.gopi.BookExchange.cfg;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
