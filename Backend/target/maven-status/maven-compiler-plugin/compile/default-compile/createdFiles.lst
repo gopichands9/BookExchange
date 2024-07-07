@@ -1,0 +1,6 @@
+com/gopi/BookExchange/service/UserService.class
+com/gopi/BookExchange/controller/UserController.class
+com/gopi/BookExchange/config/WebSecurityConfig.class
+com/gopi/BookExchange/BookExchangeApplication.class
+com/gopi/BookExchange/repository/UserRepository.class
+com/gopi/BookExchange/model/User.class
