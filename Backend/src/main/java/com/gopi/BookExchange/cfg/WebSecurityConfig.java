@@ -1,4 +1,4 @@
-package com.gopi.BookExchange.cfg;
+package com.gopi.BookExchange.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +18,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/api/users/register").permitAll() // Allow unauthenticated access to register endpoint
+                .antMatchers("/api/books/register").permitAll() // Allow unauthenticated access to register book endpoint
                 .anyRequest().authenticated(); // Require authentication for other endpoints
     }
 
